@@ -1,7 +1,7 @@
 ; Info for the admin themes page
 ; ------------------------------
-name = basic
-description = Basic Drupal theme with css and javascript files. Includes normalize.css.
+name = starter
+description = Basic Drupal theme with core theme overrides, css and javascript files. Includes normalize.css.
 screenshot = screenshot.png
 
 ; Set the Drupal version this theme can be used with

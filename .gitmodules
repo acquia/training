@@ -1,3 +1,6 @@
 [submodule "themes/basic/plugins/normalize"]
 	path = themes/basic/plugins/normalize
 	url = https://github.com/necolas/normalize.css.git
+[submodule "themes/starter/plugins/normalize"]
+	path = themes/starter/plugins/normalize
+	url = https://github.com/necolas/normalize.css.git
