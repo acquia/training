@@ -36,8 +36,9 @@ features[] = secondary_menu
 
 ; Stylesheets
 ; ------------------------------
-stylesheets[all][] = plugins/normalize/normalize.css
-stylesheets[all][] = css/basic.css
+stylesheets[all][]   = plugins/normalize/normalize.css
+stylesheets[all][]   = css/basic.css
+stylesheets[print][] = css/print.css
 
 ; Scripts
 ; ------------------------------
