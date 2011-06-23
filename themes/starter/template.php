@@ -23,3 +23,9 @@ function starter_preprocess_html(&$vars) {
   drupal_add_js($theme_path . '/plugins/modernizr/modernizr.js', array('every_page' => TRUE, 'scope' => 'footer', 'group' => JS_THEME,));
   //
 }
+
+function starter_preprocess_page (&$vars) {
+}
+
+function starter_preprocess_node (&$vars) {
+}
