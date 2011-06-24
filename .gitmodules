@@ -13,3 +13,15 @@
 [submodule "themes/starter/plugins/modernizr"]
 	path = themes/starter/plugins/modernizr
 	url = https://github.com/Modernizr/Modernizr.git
+[submodule "themes/cornflower/plugins/fixed960grid"]
+	path = themes/cornflower/plugins/fixed960grid
+	url = https://github.com/nathansmith/960-Grid-System.git
+[submodule "themes/cornflower/plugins/normalize"]
+	path = themes/cornflower/plugins/normalize
+	url = https://github.com/necolas/normalize.css.git
+[submodule "themes/cornflower/plugins/fluid960grid"]
+	path = themes/cornflower/plugins/fluid960grid
+	url = https://github.com/bauhouse/fluid960gs.git
+[submodule "themes/cornflower/plugins/modernizr"]
+	path = themes/cornflower/plugins/modernizr
+	url = https://github.com/Modernizr/Modernizr.git
