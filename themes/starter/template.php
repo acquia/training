@@ -28,4 +28,5 @@ function starter_preprocess_page (&$vars) {
 }
 
 function starter_preprocess_node (&$vars) {
+  kpr($vars);
 }
