@@ -1,7 +1,7 @@
 <?php
 
-function starter_preprocess_html(&$vars) {
-  $theme_path = drupal_get_path('theme', 'starter');
+function cornflower_preprocess_html(&$vars) {
+  $theme_path = drupal_get_path('theme', 'cornflower');
   // Add CSS
   // Give IE6 and below a basic typography stylesheet. No need to worry about this browser any further
   drupal_add_css('http://universal-ie6-css.googlecode.com/files/ie6.0.3.css', array('type' => 'external', 'group' => CSS_THEME, 'media' => 'all', 'browsers' => array('IE' => 'IE 6', '!IE' => FALSE),));
