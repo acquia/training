@@ -1,7 +1,7 @@
 ; Info for the admin themes page
 ; ------------------------------
-name = starter
-description = Basic Drupal theme with core theme overrides, css and javascript files. Includes normalize.css.
+name = cornflower
+description = A complete Drupal theme, resplendent in cornflower blue.
 screenshot = screenshot.png
 
 ; Set the Drupal version this theme can be used with
@@ -37,7 +37,7 @@ features[] = secondary_menu
 ; Stylesheets
 ; ------------------------------
 stylesheets[all][]   = plugins/normalize/normalize.css
-stylesheets[all][]   = css/basic.css
+stylesheets[all][]   = css/cornflower.css
 stylesheets[print][] = css/print.css
 
 ; Scripts
