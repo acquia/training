@@ -1,0 +1,22 @@
+.search-form {
+  margin-bottom: 1em;
+}
+.search-form input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.search-results {
+  list-style: none;
+  padding-left: 0;
+}
+.search-results li {
+  margin-bottom: 1em;
+}
+.search-advanced .criterion {
+  float: left; /* LTR */
+  margin-right: 2em; /* LTR */
+}
+.search-advanced .action {
+  float: left; /* LTR */
+  clear: left; /* LTR */
+}

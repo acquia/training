@@ -17,6 +17,7 @@ engine = phptemplate
 ; ------------------------------
 regions[header] = Header
 regions[highlighted] = Highlighted
+regions[navigation] = Navigation
 regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = Left sidebar
@@ -38,6 +39,12 @@ features[] = secondary_menu
 ; ------------------------------
 stylesheets[all][]   = plugins/normalize/normalize.css
 stylesheets[all][]   = css/cornflower.css
+stylesheets[all][]   = css/core/system.admin.css
+stylesheets[all][]   = css/core/system.base.css
+stylesheets[all][]   = css/core/system.theme.css
+stylesheets[all][]   = css/core/system.menus.css
+stylesheets[all][]   = css/core/system.messages.css
+stylesheets[all][]   = css/core/search.css
 stylesheets[print][] = css/print.css
 
 ; Scripts

@@ -72,13 +72,13 @@
     <div id="header"><div class="section clearfix">
 
       <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo" class="grid_4">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
 
       <?php if ($site_name || $site_slogan): ?>
-        <div id="name-and-slogan">
+        <div id="name-and-slogan" class="grid_12">
           <?php if ($site_name): ?>
             <?php if ($title): ?>
               <div id="site-name"><strong>
@@ -101,10 +101,9 @@
 
     </div></div> <!-- /.section, /#header -->
 
-    <?php if ($main_menu || $secondary_menu): ?>
-      <div id="navigation"><div class="section">
-        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
-        <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Secondary menu'))); ?>
+    <?php if ($page['navigation']): ?>
+      <div id="navigation" class="grid_16"><div class="section">
+        <?php print render($page['navigation']); ?>
       </div></div> <!-- /.section, /#navigation -->
     <?php endif; ?>
 
