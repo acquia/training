@@ -31,3 +31,12 @@ tr.odd {
 /* @end */
 
 /* @end */
+
+/* @group Components */
+
+#site-name {
+  font-size: 48px;
+  line-height: 1;
+}
+
+/* @end */

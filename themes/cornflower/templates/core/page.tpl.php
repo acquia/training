@@ -72,13 +72,13 @@
     <div id="header"><div class="section clearfix">
 
       <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo" class="grid_4">
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo" class="grid_2">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
 
       <?php if ($site_name || $site_slogan): ?>
-        <div id="name-and-slogan" class="grid_12">
+        <div id="name-and-slogan" class="grid_14">
           <?php if ($site_name): ?>
             <?php if ($title): ?>
               <div id="site-name"><strong>
@@ -96,8 +96,9 @@
           <?php endif; ?>
         </div> <!-- /#name-and-slogan -->
       <?php endif; ?>
-
-      <?php print render($page['header']); ?>
+      <div class="grid_16">
+        <?php print render($page['header']); ?>
+      </div>
 
     </div></div> <!-- /.section, /#header -->
 
@@ -115,9 +116,9 @@
       <div id="console" class="clearfix"><?php print $messages; ?></div>
     <?php endif; ?>
 
-    <div id="main-wrapper"><div id="main" class="clearfix">
+    <div id="main-wrapper"><div id="main" class="clearfix container_16 type">
 
-      <div id="content" class="column"><div class="section">
+      <div id="content" class="column grid_8 push_4"><div class="section">
         <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
@@ -131,13 +132,13 @@
       </div></div> <!-- /.section, /#content -->
 
       <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first" class="column sidebar"><div class="section">
+        <div id="sidebar-first" class="column sidebar grid_4 pull_8"><div class="section">
           <?php print render($page['sidebar_first']); ?>
         </div></div> <!-- /.section, /#sidebar-first -->
       <?php endif; ?>
 
       <?php if ($page['sidebar_second']): ?>
-        <div id="sidebar-second" class="column sidebar"><div class="section">
+        <div id="sidebar-second" class="column sidebar grid_4"><div class="section">
           <?php print render($page['sidebar_second']); ?>
         </div></div> <!-- /.section, /#sidebar-second -->
       <?php endif; ?>

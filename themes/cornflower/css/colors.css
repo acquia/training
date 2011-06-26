@@ -1,0 +1,67 @@
+/* @group type */
+
+.type {
+  color: #323232;
+}
+
+.type .ui-widget-content {
+  color: #323232 !important;
+}
+
+.type a,
+.type a:link,
+.type a:visited {
+  color: #067BBA;
+}
+
+.type h1,
+.type h1 > a:link,
+.type h1 > a:visited,
+.type h1.title,
+.type h1.title > a:link,
+.type h1.title > a:visited {
+  color: #999;
+}
+
+.type h2,
+.type h2 > a:link,
+.type h2 > a:visited {
+  color: #747474;
+}
+
+.type h3,
+.type h3 > a:link,
+.type h3 > a:visited,
+.type h4,
+.type h4 > a:link,
+.type h4 > a:visited,
+.type h5,
+.type h5 > a:link,
+.type h5 > a:visited {
+  color: #333333;
+}
+
+.type h6,
+.type h6 > a:link,
+.type h6 > a:visited {
+  color: #747474;
+}
+
+.type a:hover {
+  color: #2b4165;
+}
+
+.type a:focus,
+.type a:active {}
+
+/* @end */
+
+/* @group Components */
+
+#site-name,
+#site-name a:link,
+#site-name a:visited {
+  color: black;
+}
+
+/* @end */
