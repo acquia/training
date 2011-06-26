@@ -6,8 +6,8 @@ function cornflower_preprocess_html(&$vars) {
   // Give IE6 and below a basic typography stylesheet. No need to worry about this browser any further
   drupal_add_css('http://universal-ie6-css.googlecode.com/files/ie6.0.3.css', array('type' => 'external', 'group' => CSS_THEME, 'media' => 'all', 'browsers' => array('IE' => 'IE 6', '!IE' => FALSE),));
   // Grid
-  // drupal_add_css($theme_path . '/plugins/fluid960grid/css/grid.css', array('group' => CSS_THEME, 'media' => 'screen and (min-width : 960px)', 'browsers' => array('IE' => 'gte IE 7', '!IE' => true),));
-  drupal_add_css($theme_path . '/plugins/fixed960grid/code/css/960.css', array('group' => CSS_THEME, 'media' => 'screen and (min-width : 960px)', 'browsers' => array('IE' => 'gte IE 7', '!IE' => true),));
+  // drupal_add_css($theme_path . '/plugins/fluid960grid/css/grid.css', array('group' => CSS_THEME));
+  drupal_add_css($theme_path . '/plugins/fixed960grid/code/css/960.css', array('group' => CSS_THEME));
   // IE
   drupal_add_css($theme_path . '/css/ie/ie.css', array('group' => CSS_THEME, 'media' => 'screen', 'browsers' => array('IE' => 'IE', '!IE' => FALSE), 'preprocess' => FALSE,));
   drupal_add_css($theme_path . '/css/ie/ie-7.css', array('group' => CSS_THEME, 'media' => 'screen', 'browsers' => array('IE' => 'IE 7', '!IE' => FALSE), 'preprocess' => FALSE,));
