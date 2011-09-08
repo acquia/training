@@ -1,0 +1,37 @@
+name = Responsive
+description = An example of using Media Queries in Drupal7
+core = 7.x
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/main.css
+stylesheets[(min-width: 480px)][] = css/480.css
+stylesheets[(min-width: 768px)][] = css/768.css
+stylesheets[(min-width: 1024px)][] = css/1024.css
+stylesheets[(min-width: 1280px)][] = css/1280.css
+
+; The following stylesheets require the Conditional Stylesheets module
+; to be installed and enabled.
+; @see http://drupal.org/project/conditional_styles
+; stylesheets-conditional[lt IE 7][all][] = ie6-and-below.css 
+; stylesheets-conditional[IE 9][all][] = ie9.css 
+; stylesheets-conditional[IE][print][] = ie-print.css
+
+scripts[] = sparkle.js
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
