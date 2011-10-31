@@ -1,0 +1,34 @@
+/* taken from the stark theme */
+
+#sidebar-left,
+#main,
+#sidebar-right {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#sidebar-left,
+#sidebar-right {
+  width: 20%;
+}
+
+body.one-sidebar #main {
+  width: 80%;
+}
+
+body.two-sidebars #main {
+  width: 60%;
+}
+
+body.sidebar-left #main-squeeze {
+  margin-left: 20px;
+}
+
+body.sidebar-right #main-squeeze {
+  margin-right: 20px;
+}
+
+body.two-sidebars #main-squeeze {
+  margin: 0 20px;
+}
