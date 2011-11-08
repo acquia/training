@@ -1,0 +1,55 @@
+body {
+  margin-bottom:0;
+}
+
+#page {
+  width:960px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 0 0 25px 0;
+  height: 85px; /* 110 - 25= */
+}
+
+#site-name,
+#site-slogan {
+  margin-left: 60px; /* width of logo + 10 px */
+}
+#search-box {
+  text-align:right;
+  margin-right:10px;
+}
+
+#sidebar-second {
+  float:right;
+  width: 240px;
+  margin: 20px 16px 20px 0; /* 4px of borders */
+}
+
+body.no-sidebars #main {
+  width: 960px;
+}
+body.one-sidebar #main #content {
+  float:left;
+  width: 660px; /* 960 - 240 - (20x2) */
+}
+
+#main #content {
+  padding: 20px;
+}
+body.no-sidebars #main #content {
+  text-align:center;
+}
+body.no-sidebars #main * {
+  text-align:left;
+}
+body.no-sidebars #main #content-content .node {
+  width: 682px;
+  margin: 0 auto;
+}
+
+#footer {
+  margin: 0 20px 40px 40px;
+  padding: 5px 0;
+}
