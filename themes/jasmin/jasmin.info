@@ -14,6 +14,7 @@ base theme = cornflower
 
 ; Regions
 ; ------------------------------
+regions[page_top] = Above page
 regions[header] = Header
 regions[highlighted] = Highlighted
 regions[navigation] = Navigation
@@ -22,6 +23,7 @@ regions[content] = Content
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer] = Footer
+regions[page_bottom] = Below page
 
 ; Features
 ; ------------------------------
