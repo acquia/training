@@ -15,16 +15,18 @@ engine = phptemplate
 
 ; Regions
 ; ------------------------------
-regions[page_top] = Above page
 regions[header] = Header
 regions[highlighted] = Highlighted
-regions[navigation] = Navigation
 regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer] = Footer
-regions[page_bottom] = Below page
+
+; Required core regions
+; ------------------------------
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
 
 ; Features
 ; ------------------------------
