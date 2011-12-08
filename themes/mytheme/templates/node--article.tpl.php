@@ -89,7 +89,7 @@
 
   <?php if ($display_submitted): ?>
     <div class="submitted">
-     <?php print $submitted; ?> <?php // print  $commentlink; ?>
+      <?php print $submitted; ?> <?php // print  $commentlink; ?>
     </div>
   <?php endif; ?>
 
@@ -115,6 +115,5 @@ if($teaser){
 ?>
 
   <?php print render($content['comments']); ?>
-
 
 </div>

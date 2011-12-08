@@ -1,114 +1,128 @@
-#page {
+/*
+ * Custom styles
+ */
+ #page {
   border: 1px solid #e5f4f6;
-  border-top:0;
+  border-top: 0;
 }
-
 #header {
   background: transparent url("../images/bg-header.png") top left no-repeat;
 }
 
-/* Site name and slogan */
+/*
+ * Header
+ */
 #header .section {
 	padding-top: 20px;
 }
 #name-and-slogan {
+  float: left;
   font-family: Helvetica, arial, sans-serif;
-  float:left;
 }
 #site-name {
-  margin-top:5px;
-  margin-bottom:5px;
-  font-size:29px;
+  font-size: 29px;
   line-height: 29px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 #site-name a {
-  color:#000000;
+  color: #000000;
 }
 #site-name a:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 #site-slogan {
+  color: #999999;
   text-transform: uppercase;
-  color:#999999;
 }
 
-/* Search block */
+/*
+ * Search
+ */
 #search-block-form {
-  clear:right;
-  float:right;
+  clear: right;
+  float: right;
 }
 #search-block-form input {
-  font-style: italic;
   font-family: Georgia, Helvetica, arial, sans-serif;
   font-size: 12px;
+  font-style: italic;
   padding: 5px 10px;
 }
 #search-block-form input.form-submit {
   background: transparent url("../images/search.png") top left no-repeat;
-  width:30px;
-  height:30px;
+  border: 0;
+  height: 30px;
   text-indent: -9999px;
-  border:0;
+  width: 30px;
 }
 
-/* Breadcrumbs */
+/*
+ * Breadcrumbs
+ */
 #breadcrumb {
-  padding: 0 20px; 
   background-color: #eaf7fa;
+  padding: 0 20px; 
 }
 #breadcrumb .breadcrumb {
-  padding: 3px 0;
+  color: #0092ab;
   font-family: Georgia, Helvetica, arial, sans-serif;
   font-style: italic;
-  font-size:11px;
-  color: #0092ab;
+  font-size: 11px;
+  padding: 3px 0;
 }
 #breadcrumb .breadcrumb a{
   color: #0092ab;
   padding: 0 5px;
 }
 
-/* links */
+/**
+ * Links
+ */
 ul.links {
-  clear:both;
+  clear: both;
 }
 ul.links li.node_read_more a {
-  display:block;
-  float:right;
-  font-weight: bold;
-  font-size: 13px;
+  background-color: #b7e1ec;
   color: #3f3f3f;
-  background-color:#b7e1ec;
+  display: block;
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
   padding: 0 5px;
 }
 
-/* footer */
+/**
+ * Footer
+ */
 #footer-wrapper {
-  border-top: 1px dotted #666666;
   border-bottom: 1px dotted #666666;
+  border-top: 1px dotted #666666;
 }
 #footer {
+  color: #333333;
   font-family: Georgia, Helvetica, arial, sans-serif;
   font-size: 12px;
   font-style: italic;
-  color: #333333;
 }
 
 /*
  * Drupal elements
  */
  
-/*blocks*/
+/*
+ * Blocks
+ */
 .block {
   margin-bottom: 10px;
 }
 .sidebar .block h2 {
-  height:40px;
-  padding: 0 10px;
-  margin-top:0;
+  height: 40px;
   font-weight: bold;
   font-size: 15px;
   line-height: 40px;
+  margin-top: 0;
+  padding: 0 10px;
 }
 .block .content {
   padding: 10px;
@@ -121,62 +135,66 @@ body.front .view-frontpage .block .content {
 }
 .sidebar .block h2 {
   background: transparent url("../images/bg-block-title.png") top left no-repeat;
-  color:#ffffff;
+  color: #ffffff;
 }
 .sidebar .block a {
   color: #0092ab;
 }
-/* Specific Views */
+/*
+ * Views
+ */
 .sidebar .block-views {
   font-size: 12px;
 }
 
-/* tabs */
+/*
+ * Tabs
+ */
 .tabs ul.primary {
-  border-color:#cccccc;
+  border-color: #cccccc;
   height: 21px;
 }
 .tabs ul.primary a {
   background-color: #d1e6eb;
-  padding: 5px 25px;
   color: #0092ab;
+  padding: 5px 25px;
 }
 .tabs ul.primary a.active {
   color: #333333;
 }
 .tabs ul.secondary {
-  border-bottom:0;
+  border-bottom: 0;
 }
 .tabs ul.secondary a.active {
-  border-bottom:0;
+  border-bottom: 0;
 }
 .tabs ul.secondary a:hover {
   color: #3f3f3f;
 }
 
-
 /*
  * Nodes
  */
 .node {
+  border-bottom: 1px dotted #666666;
   margin-bottom: 10px;
   padding: 10px 0 20px 0;
-  border-bottom: 1px dotted #666666;
 }
-
 .node .links {
-  float:right;
+  float: right;
 }
 .node .links a {
   color: #cc3300;
-  font-size:12px;
-  font-weight:bold;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-/* Taxonomy terms on a node */
+/*
+ * Terms on a node
+ */
 
 .field-type-taxonomy-term-reference {
-  background-color:#eaf4dc;
+  background-color: #eaf4dc;
   font-size: 12px;
 }
 .field-type-taxonomy-term-reference .field-item, .field-type-taxonomy-term-reference .field-items {
@@ -184,16 +202,15 @@ body.front .view-frontpage .block .content {
 
 }
 .field-type-taxonomy-term-reference .field-label {
-	text-transform: uppercase;
-  font-weight:bold;
   display: inline;
+  font-weight: bold;
 	padding: 5px;
+	text-transform: uppercase;
 }
-
 .field-type-taxonomy-term-reference .field-item a {
-  font-weight: normal;
-  font-style: italic;
+  color: #2c3033;
   font-family: Georgia, Helvetica, arial, sans-serif;
-  color:#2c3033;
+  font-style: italic;
+  font-weight: normal;
 	padding: 5px;
 }

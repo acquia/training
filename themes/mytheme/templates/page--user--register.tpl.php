@@ -66,7 +66,6 @@
  * @see template_process()
  */
 ?>
-<h1>Hello registration page!</h1>
   <div id="page-wrapper"><div id="page" class="container_16">
     <div id="header"><div class="section clearfix">
 

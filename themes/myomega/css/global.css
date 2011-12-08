@@ -1,0 +1,35 @@
+/* This file will hold the main styles for your website. */
+
+body, th, td, input, textarea, select, option, p, h1, h2, h3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+a:link, a:visited {
+	color: #3F6A93;
+	text-decoration: none;
+}
+a:hover {
+	color: #5A85C1;
+}
+
+#section-header {
+	background-color: #000000;
+	color: #ffffff;
+	height: 100px;
+  margin: 0 0 10px;
+  font-family: Georgia, serif;
+}
+
+#section-header a {
+	background-color: #000000;
+	color: #ffffff;
+}
+#region-menu {
+	margin: 10px 0 0 0;
+}
+.block-title {
+	background: url("../images/check.jpg") no-repeat scroll left 80% transparent;
+	margin: 0;
+	padding: 5px 0 0 20px;
+}

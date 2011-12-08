@@ -2,9 +2,9 @@
  * HTML Elements
  */
 body {
+  color: #3f3f3f;
   font-family: arial, sans-serif;
-  color:#3f3f3f;
-  font-size:14px;
+  font-size: 14px;
   line-height: 135%;
 } 
 
@@ -15,27 +15,27 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 h1 {
-  font-size:30px;
-  line-height: 50px;
   color: #313233;
+  font-size: 30px;
+  line-height: 50px;
 }
 h2 {
-  font-size:20px;
-  line-height: 20px;
   color: #5f9fac;
+  font-size: 20px;
+  line-height: 20px;
   margin: .5em 0;
 }
 h2 a {
   color: #60a0ad;
 }
 h3, h4 {
-  font-size:15px;
-  line-height:15px;
   color: #3f3f3f;
+  font-size: 15px;
+  line-height: 15px;
 }
 #page-title {
   border-bottom: 1px dotted #666666;
-  margin-top:0;
+  margin-top: 0;
 }
 
 /*
@@ -46,7 +46,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 p a {
   color: #cc3300;
@@ -59,10 +59,10 @@ blockquote {
   font-family: Georgia, Helvetica, arial, sans-serif;
   font-style: italic;
   margin-left: 150px;
-  margin-right:0;
+  margin-right: 0;
 }
 blockquote p {
-  margin:25px 0;
+  margin: 25px 0;
 }
 
 /*
@@ -80,13 +80,13 @@ ul.vertical-tabs-list li {
  */
 #content img,
 #sidebar-right .block img {
+  background-color: #ffffff;
   border: 1px solid #cdcdcd;
-  background-color:#ffffff;
   padding: 5px;
 }
 #content a.feed-icon img {
-  border:0;
-  padding:0;
+  border: 0;
+  padding: 0;
 }
 img.imagecache-half {
   float:left;
@@ -102,25 +102,25 @@ table {
 }
 table tr.odd {
   background-color: #ffffff;
-  border:0;
+  border: 0;
 }
 table tr.even {
   background-color: #dcf8ff;
-  border:0;
+  border: 0;
 }
 table th {
   background-color: #84c9dd;
-  font-size:11px;
-  padding: 2px 5px 0 5px;
-  border:0;
+  border: 0;
   border-right: 1px solid #ffffff;
   color: #ffffff;
+  font-size: 11px;
+  padding: 2px 5px 0 5px;
   text-transform: uppercase;
 }
 table td {
-  padding: 2px 5px 2px 5px;
-  font-size:13px;
   border-right: 1px solid #ffffff;
+  font-size: 13px;
+  padding: 2px 5px 2px 5px;
 }
 
 /* Forms */
@@ -129,22 +129,22 @@ table td {
   color: #333333;
 }
 input.form-text {
-  font-family: Georgia,Helvetica,arial,sans-serif;
-  font-size:12px;
-  font-style:italic;
   padding: 5px 10px;
+  font-family: Georgia,Helvetica,arial,sans-serif;
+  font-size: 12px;
+  font-style:italic;
 }
 #edit-actions {
-  text-align:right;
   padding-right: 20px;
+  text-align:right;
 }
 #content input.form-submit {
-  background-image: none;
-  padding: 5px 25px;
-  color:#ffffff;
   background-color: #a8c43e;
-  border:0;
-  font-size:15px;
+  background-image: none;
+  border: 0;
+  color: #ffffff;
+  font-size: 15px;
+  min-width: 130px;
+  padding: 5px 25px;
   text-align:center;
-  min-width:130px;
 }

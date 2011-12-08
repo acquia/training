@@ -1,15 +1,15 @@
 body {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 #page {
-  width:960px;
   margin: 0 auto;
+  width: 960px;
 }
 
 #header {
-  padding: 0 0 25px 0;
   height: 85px; /* 110 - 25= */
+  padding: 0 0 25px 0;
 }
 
 #site-name,
@@ -17,36 +17,36 @@ body {
   margin-left: 60px; /* width of logo + 10 px */
 }
 #search-box {
-  text-align:right;
-  margin-right:10px;
+  margin-right: 10px;
+  text-align: right;
 }
 
 #sidebar-second {
-  float:right;
-  width: 240px;
+  float: right;
   margin: 20px 16px 20px 0; /* 4px of borders */
+  width: 240px;
 }
 
 body.no-sidebars #main {
   width: 960px;
 }
 body.one-sidebar #main #content {
-  float:left;
-  width: 660px; /* 960 - 240 - (20x2) */
+  float: left;
+  width: 640px; /* 960 - 240 - (20x4) */
 }
 
 #main #content {
   padding: 20px;
 }
 body.no-sidebars #main #content {
-  text-align:center;
+  text-align: center;
 }
 body.no-sidebars #main * {
-  text-align:left;
+  text-align: left;
 }
 body.no-sidebars #main #content-content .node {
-  width: 682px;
   margin: 0 auto;
+  width: 682px;
 }
 
 #footer {

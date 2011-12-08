@@ -64,11 +64,11 @@
     <span class="new"><?php print $new ?></span>
   <?php endif; ?>
   
-   <div class="user-picture">
+   <div style="float:left;margin:0 10px 10px 0">
    <?php print $picture ?>
    </div>
   
-  <div class="submitted">
+  <div class="submitted" style="color:#666;font-size:70%;";>
     <?php print $author; ?>  <?php print $created; ?>
     <?php print $permalink; ?>
   </div>
@@ -76,7 +76,7 @@
   
   <!-- re-arrange the order of elements by using hide() and render() -->
   
-  <div class="content"<?php print $content_attributes; ?>>
+  <div class="content"<?php print $content_attributes; ?> style="margin:0 0 0 60px">
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['links']);
