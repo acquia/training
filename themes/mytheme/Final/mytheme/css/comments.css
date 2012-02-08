@@ -1,0 +1,17 @@
+/**
+ * Comments
+ */
+
+#comments .content {
+  margin:0 0 0 60px;
+  }
+  
+#comments .submitted {
+  color:#666;
+  font-size:70%;
+}
+
+#comments .user-picture {
+  float:left;
+  margin:0 10px 10px 0
+}

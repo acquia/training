@@ -1,0 +1,150 @@
+/*
+ * HTML Elements
+ */
+body {
+  color: #3f3f3f;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 135%;
+} 
+
+/*
+ * Headings
+ */
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+h1 {
+  color: #313233;
+  font-size: 30px;
+  line-height: 50px;
+}
+h2 {
+  color: #5f9fac;
+  font-size: 20px;
+  line-height: 20px;
+  margin: .5em 0;
+}
+h2 a {
+  color: #60a0ad;
+}
+h3, h4 {
+  color: #3f3f3f;
+  font-size: 15px;
+  line-height: 15px;
+}
+#page-title {
+  border-bottom: 1px dotted #666666;
+  margin-top: 0;
+}
+
+/*
+ * Links
+ */
+a {
+  color: #60a0ad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p a {
+  color: #cc3300;
+}
+
+/*
+ * Blockquote
+ */
+blockquote {
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-style: italic;
+  margin-left: 150px;
+  margin-right: 0;
+}
+blockquote p {
+  margin: 25px 0;
+}
+
+/*
+ * Lists
+ */
+ul li {
+  list-style: square;
+}
+ul.vertical-tabs-list li {
+  list-style: none;
+}
+
+/*
+ * Image styles
+ */
+#content img,
+#sidebar-right .block img {
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+  padding: 5px;
+}
+#content a.feed-icon img {
+  border: 0;
+  padding: 0;
+}
+img.imagecache-half {
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/*
+ * Table styles
+ */
+table {
+  width: 100%;
+}
+table tr.odd {
+  background-color: #ffffff;
+  border: 0;
+}
+table tr.even {
+  background-color: #dcf8ff;
+  border: 0;
+}
+table th {
+  background-color: #84c9dd;
+  border: 0;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 2px 5px 0 5px;
+  text-transform: uppercase;
+}
+table td {
+  border-right: 1px solid #ffffff;
+  font-size: 13px;
+  padding: 2px 5px 2px 5px;
+}
+
+/* Forms */
+.form-item label {
+  font-size: 13px;
+  color: #333333;
+}
+input.form-text {
+  padding: 5px 10px;
+  font-family: Georgia,Helvetica,arial,sans-serif;
+  font-size: 12px;
+  font-style:italic;
+}
+#edit-actions {
+  padding-right: 20px;
+  text-align:right;
+}
+#content input.form-submit {
+  background-color: #a8c43e;
+  background-image: none;
+  border: 0;
+  color: #ffffff;
+  font-size: 15px;
+  min-width: 130px;
+  padding: 5px 25px;
+  text-align:center;
+}

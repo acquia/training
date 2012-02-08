@@ -1,0 +1,31 @@
+/* Navigation */
+#navigation .content {
+	padding: 0;
+}
+#navigation ul {
+  background-color: #72c8de;
+  height: 30px;
+  padding-left: 0;
+}
+#navigation li {
+  display: inline;
+  list-style: none outside none;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+#navigation li a {
+  background-color: #72c8de;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  float: left;
+  padding: 5px 0;
+  text-align: center;
+  width: 150px;
+}
+#navigation li a:hover, #navigation li.active-trail a, #navigation li a.active {
+  background-color: #4e8fac;
+  color: #ffffff;
+  font-size: bigger;
+  text-decoration: none;
+}

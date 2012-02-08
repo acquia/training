@@ -1,0 +1,216 @@
+/*
+ * Custom styles
+ */
+ #page {
+  border: 1px solid #e5f4f6;
+  border-top: 0;
+}
+#header {
+  background: transparent url("../images/bg-header.png") top left no-repeat;
+}
+
+/*
+ * Header
+ */
+#header .section {
+	padding-top: 20px;
+}
+#name-and-slogan {
+  float: left;
+  font-family: Helvetica, arial, sans-serif;
+}
+#site-name {
+  font-size: 29px;
+  line-height: 29px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#site-name a {
+  color: #000000;
+}
+#site-name a:hover {
+  text-decoration: none;
+}
+#site-slogan {
+  color: #999999;
+  text-transform: uppercase;
+}
+
+/*
+ * Search
+ */
+#search-block-form {
+  clear: right;
+  float: right;
+}
+#search-block-form input {
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  padding: 5px 10px;
+}
+#search-block-form input.form-submit {
+  background: transparent url("../images/search.png") top left no-repeat;
+  border: 0;
+  height: 30px;
+  text-indent: -9999px;
+  width: 30px;
+}
+
+/*
+ * Breadcrumbs
+ */
+#breadcrumb {
+  background-color: #eaf7fa;
+  padding: 0 20px; 
+}
+#breadcrumb .breadcrumb {
+  color: #0092ab;
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-style: italic;
+  font-size: 11px;
+  padding: 3px 0;
+}
+#breadcrumb .breadcrumb a{
+  color: #0092ab;
+  padding: 0 5px;
+}
+
+/**
+ * Links
+ */
+ul.links {
+  clear: both;
+}
+ul.links li.node_read_more a {
+  background-color: #b7e1ec;
+  color: #3f3f3f;
+  display: block;
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+/**
+ * Footer
+ */
+#footer-wrapper {
+  border-bottom: 1px dotted #666666;
+  border-top: 1px dotted #666666;
+}
+#footer {
+  color: #333333;
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/*
+ * Drupal elements
+ */
+ 
+/*
+ * Blocks
+ */
+.block {
+  margin-bottom: 10px;
+}
+.sidebar .block h2 {
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  margin-top: 0;
+  padding: 0 10px;
+}
+.block .content {
+  padding: 10px;
+}
+body.front .view-frontpage .block .content {
+  height: 244px;
+}
+.sidebar .block {
+  background-color: #edf8fb;
+}
+.sidebar .block h2 {
+  background: transparent url("../images/bg-block-title.png") top left no-repeat;
+  color: #ffffff;
+}
+.sidebar .block a {
+  color: #0092ab;
+}
+/*
+ * Views
+ */
+.sidebar .block-views {
+  font-size: 12px;
+}
+
+/*
+ * Tabs
+ */
+.tabs ul.primary {
+  border-color: #cccccc;
+  height: 21px;
+}
+.tabs ul.primary a {
+  background-color: #d1e6eb;
+  color: #0092ab;
+  padding: 5px 25px;
+}
+.tabs ul.primary a.active {
+  color: #333333;
+}
+.tabs ul.secondary {
+  border-bottom: 0;
+}
+.tabs ul.secondary a.active {
+  border-bottom: 0;
+}
+.tabs ul.secondary a:hover {
+  color: #3f3f3f;
+}
+
+/*
+ * Nodes
+ */
+.node {
+  border-bottom: 1px dotted #666666;
+  margin-bottom: 10px;
+  padding: 10px 0 20px 0;
+}
+.node .links {
+  float: right;
+}
+.node .links a {
+  color: #cc3300;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*
+ * Terms on a node
+ */
+
+.field-type-taxonomy-term-reference {
+  background-color: #eaf4dc;
+  font-size: 12px;
+}
+.field-type-taxonomy-term-reference .field-item, .field-type-taxonomy-term-reference .field-items {
+  display: inline;
+
+}
+.field-type-taxonomy-term-reference .field-label {
+  display: inline;
+  font-weight: bold;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.field-type-taxonomy-term-reference .field-item a {
+  color: #2c3033;
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+	padding: 5px;
+}

@@ -1,0 +1,50 @@
+name = My theme
+description = A great theme
+screenshot = screenshot.png
+
+; Set the Drupal version this theme can be used with and the PHP Engine
+; ------------------------------
+core = 7.x
+engine = phptemplate
+
+; Regions
+; ------------------------------
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[navigation] = Navigation
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+
+; Required core regions
+; ------------------------------
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; Features
+; ------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+
+; The main menu is set in the block system
+; ------------------------------
+; features[] = main_menu
+; features[] = secondary_menu
+
+; Stylesheets
+; ------------------------------
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/html-elements.css
+
+; Stylesheets for exercises
+; ------------------------------
+stylesheets[all][] = css/navigation.css
+stylesheets[all][] = css/comments.css
+stylesheets[all][] = css/messages.css

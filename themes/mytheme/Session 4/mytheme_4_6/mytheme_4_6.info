@@ -1,0 +1,40 @@
+name = My great theme
+description = A great theme
+screenshot = screenshot.png
+core = 7.x
+engine = phptemplate
+
+; Stylesheets
+; ------------------------------
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/html-elements.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/navigation.css
+stylesheets[all][] = css/styles.css
+
+; Regions
+; ------------------------------
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+
+; Required core regions
+; ------------------------------
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; Features
+; ------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu

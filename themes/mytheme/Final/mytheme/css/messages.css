@@ -1,0 +1,48 @@
+/**
+ * Messages CSS
+ */
+div.messages,
+div.help {
+  font-family: Georgia, Helvetica, arial, sans-serif;
+  font-style:italic;
+  margin: 10px 0;
+  padding: 15px 50px;
+}
+div.help {
+  padding-top: 0;
+}
+div.messages {
+  font-size: 20px;
+  line-height: 23px;
+}
+div.messages ul li {
+  margin: 5px 0;
+}
+div.help  {
+  background: #d5eaf1 url("../images/bg-help.png") 10px 10px no-repeat;
+  border: 1px solid #0090a9;
+  color: #0090a9;
+}
+div.status {
+  background: #eaf4dc url("../images/bg-status.png") 10px 10px no-repeat;
+  border: 1px solid #44a028;
+  color: #44a028;
+}
+div.warning {
+  background: url("../images/bg-warning.png") no-repeat scroll 10px 10px #FFFFDD;
+  color: #B8860B;
+  border: 1px solid #B8860B;
+}
+div.error {
+  background: #f9a7bc url("../images/bg-error.png") 10px 10px no-repeat;
+}
+div.error,
+.form-item input.error,
+.form-item textarea.error {
+  border: 1px solid #990000;
+  background-color: #f9a7bc;
+  color: #990000;
+}
+div.error ul li {
+  margin: 8px 0;
+}

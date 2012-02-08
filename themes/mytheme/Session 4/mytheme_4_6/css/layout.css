@@ -1,0 +1,55 @@
+body {
+  margin-bottom: 0;
+}
+
+#page {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#header {
+  height: 85px; /* 110 - 25= */
+  padding: 0 0 25px 0;
+}
+
+#site-name,
+#site-slogan {
+  margin-left: 60px; /* width of logo + 10 px */
+}
+#search-box {
+  margin-right: 10px;
+  text-align: right;
+}
+
+#sidebar-second {
+  float: right;
+  margin: 20px 16px 20px 0; /* 4px of borders */
+  width: 240px;
+}
+
+body.no-sidebars #main {
+  width: 960px;
+}
+body.one-sidebar #main #content {
+  float: left;
+  width: 640px; /* 960 - 240 - (20x4) */
+}
+
+#main #content {
+  padding: 20px;
+}
+body.no-sidebars #main #content {
+  text-align: center;
+}
+body.no-sidebars #main * {
+  text-align: left;
+}
+body.no-sidebars #main #content-content .node {
+  margin: 0 auto;
+  width: 682px;
+}
+
+#footer {
+  margin: 0 20px 40px 40px;
+  padding: 5px 0;
+}
