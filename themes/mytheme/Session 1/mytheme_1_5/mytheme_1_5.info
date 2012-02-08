@@ -1,8 +1,15 @@
-name = My great theme (Unit 1.3 Completed)
+name = My great theme (Unit 1.5 Completed)
 description = A great theme
 screenshot = screenshot.png
 core = 7.x
 engine = phptemplate
+
+; Stylesheets
+; ------------------------------
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/html-elements.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/styles.css
 
 ; Regions
 ; ------------------------------
