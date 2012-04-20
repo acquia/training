@@ -68,7 +68,6 @@
 ?>
 
   <div id="page-wrapper"><div id="page">
-  <?php print $credits; ?>
 
     <div id="header"><div class="section clearfix">
 
