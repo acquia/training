@@ -12,7 +12,3 @@ function mytheme_4_8_breadcrumb ($variables) {
     return $output;
   }
 }
-
-function mytheme_4_8_preprocess_page (&$variables) {
-  $variables['credits'] = t("Built by me!");
-}
