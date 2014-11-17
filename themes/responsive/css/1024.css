@@ -1,3 +1,0 @@
-body::after {
-  content: "Active stylesheets: reset.css, main.css, 480.css, 768.css, 1024.css";
-}
